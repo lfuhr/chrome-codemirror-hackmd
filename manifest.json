@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Fuhr HackMD",
+  "version": "0.1.0",
+  "description": "Für Lehrzwecke",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://hackmd.io/*"]
+  }]
+
+}
