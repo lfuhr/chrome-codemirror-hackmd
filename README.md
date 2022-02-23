@@ -11,4 +11,4 @@ Chrome plugin for tweaking Codemirror. It's developed for hackmd. But it should 
 * Adjust url in content.js to your username
 * tweak remote.js
 
-No need to reinstall Plugin. Because Code is remote.
+No need to reinstall plugin. Because code is remote.
