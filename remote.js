@@ -99,8 +99,8 @@ registerButton('<span class="fa fa-code"></span>', function(e) {
 
 registerButton('<s><span style="font-size:smaller">ins</span></s>', function(e) {
      let text = editor.getValue()
-     text = text.replace(/\+\+.*?\+\+/g, '')
-     text = text.replace(/<ins>[\s\S]*?<\/ins>/g, '')
+     text = text.replace(/\+\+(?=\S).*?(?<=\S)\+\+/g, '')
+     text = text.replace(/<ins>[\s\S]*?<\/ins>/g, '') // Multi line
      editor.setValue(text);
 });
 
