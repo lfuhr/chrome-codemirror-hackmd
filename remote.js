@@ -108,6 +108,10 @@ registerButton('<span style="font-size:smaller">ins</span>', function(e) {
    wrapTextWith("<ins>");
 });
 
+registerButton('<span style="font-size:smaller">++</span>', function(e) {
+   wrapTextWith("++");
+});
+
 // frei unter Mac ctrl+ "c", "g", "j", "l", "q", "r", "u", "w", "x", "z"
 // Windows Q,Z(Y-Taste)
 // document.addEventListener('keypress', function(e) {
