@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "Fuhr HackMD",
   "version": "0.1.0",
@@ -9,6 +9,11 @@
     "css": ["styles.css"],
     "js": ["content.js"],
     "matches": ["https://hackmd.io/*"]
-  }]
-
+  }],
+  "web_accessible_resources": [
+    {
+      "resources": [ "remote.js" ],
+      "matches": ["https://hackmd.io/*"]
+    }
+  ]
 }
