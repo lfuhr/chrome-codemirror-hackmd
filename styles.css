@@ -3,5 +3,5 @@
 }
 
 #doc.markdown-body .selection-popover{
-  display: none;
+  display: none !important;
 }
