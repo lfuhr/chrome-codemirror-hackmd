@@ -2,6 +2,6 @@
   background: #ffa;
 }
 
-#doc.markdown-body .selection-popover{
+#doc.markdown-body [data-radix-popper-content-wrapper] {
   display: none !important;
 }
