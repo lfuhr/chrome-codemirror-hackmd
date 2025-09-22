@@ -15,5 +15,8 @@
       "resources": [ "remote.js" ],
       "matches": ["https://hackmd.io/*"]
     }
-  ]
+  ],
+  "icons": {
+   "128": "128.png"
+ }
 }
