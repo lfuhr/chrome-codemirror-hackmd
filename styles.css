@@ -1,7 +1,3 @@
 #doc.markdown-body ::selection {
   background: #ffa;
 }
-
-[data-radix-popper-content-wrapper] {
-    visibility: hidden;
-}
