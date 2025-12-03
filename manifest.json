@@ -2,7 +2,7 @@
   "manifest_version": 3,
 
   "name": "Fuhr HackMD",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Für Lehrzwecke",
 
   "content_scripts": [{
